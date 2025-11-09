@@ -25,7 +25,6 @@ export const Hero = () => {
         <div className="absolute inset-0 bg-linear-to-b from-black/40 via-transparent to-black/60" />
       </div>
 
-      {/* 🧠 Hero content */}
       <div className="relative z-10 px-6 max-w-4xl flex flex-col gap-6">
         <h1
           className="text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tight leading-tight

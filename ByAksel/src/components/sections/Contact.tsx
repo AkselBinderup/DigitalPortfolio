@@ -7,7 +7,6 @@ export const Contact = () => {
       className="relative min-h-screen bg-linear-to-b from-[#e9effa] via-[#eef3fa] to-[#fdfcfb] py-20"
     >
       <div className="max-w-5xl mx-auto px-6 flex flex-col gap-12">
-        {/* Section Header */}
         <div className="text-center">
           <h2 className="text-4xl sm:text-6xl font-heading font-extrabold tracking-tight text-[#1E293B]">
             Kontakt
@@ -18,12 +17,10 @@ export const Contact = () => {
           </p>
         </div>
 
-        {/* Glass Box Container */}
         <div
           className="w-full rounded-3xl bg-white/40 backdrop-blur-xl border border-[#9AB3FF]/25
                      shadow-[0_10px_40px_rgba(155,180,255,0.25)] relative overflow-hidden p-8 sm:p-12"
         >
-          {/* ColorBends Background */}
           <div className="absolute inset-0 -z-10">
             <ColorBends
               colors={["#00ffd1", "#8a5cff", "#ff5c7a"]}
@@ -39,7 +36,6 @@ export const Contact = () => {
             />
           </div>
 
-          {/* Form */}
           <form
             onSubmit={(e) => e.preventDefault()}
             className="relative z-10 flex flex-col gap-6 text-[#1E293B]"
